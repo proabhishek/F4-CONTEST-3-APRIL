@@ -11,11 +11,16 @@ import { HashRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter base="/">
+    {/* <HashRouter base="/">
     <Provider store= {store}>
       <App />
     </Provider>
+    </HashRouter> */}
+  <Provider store={store}>
+    <HashRouter base="/">
+      <App/>
     </HashRouter>
+    </Provider>
   </React.StrictMode>
 );
 
