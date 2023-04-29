@@ -14,8 +14,8 @@ export const Navbar = () => {
                     </div>
                     
                    <div className="other">
-                        <div> <NavLink to="/">Home page</NavLink></div>
-                        <div><NavLink to="/about">MyCart page</NavLink></div>
+                        <div> <Link to="/">Home page</Link></div>
+                        <div><Link to="/about">MyCart page</Link></div>
                    </div>
                    
                             
