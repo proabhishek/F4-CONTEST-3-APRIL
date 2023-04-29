@@ -48,7 +48,7 @@ const App = () => {
            {/* <Main/>
            <MyCart/> */}
            <Routes>
-                <Route path="/shubhankarnikam-45.github.io/F4-CONTEST-3-APRIL/" element={<Main/>} />
+                <Route path="/" element={<Main/>} />
                 <Route path="/about" element={<MyCart />} />
             </Routes>
       </div>
